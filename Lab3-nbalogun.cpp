@@ -40,7 +40,7 @@ short sumShort(short n)
 
 
 
-// An overflow can be detected when the product gives a negative number. 
+// An overflow can be detected when the result is "inf"
 //The value of n that produces the overflow is 35
 float factorialFloat(long n)
 {
@@ -69,7 +69,7 @@ double factorialDouble(long n)
 
 
 
-//If the computattions are exact, the expected value of the function is 0. 
+//If the computations are exact, the expected value of the function is 0. 
 //However, because of the precision of float, the results are not accurate for the values n >=10.
 float sumdivFloat(float n)
 {
